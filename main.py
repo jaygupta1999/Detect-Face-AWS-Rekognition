@@ -2,7 +2,7 @@ import boto3
 import json
 import cv2
 
-photo='test.jpg' #Put name of your image test file here
+photo="test.jpg" #Put name of your image test file here
 print('Maintaining Connection with the server........')   
 client=boto3.client('rekognition',region_name='us-east-1')
 print("Made Connection with the server.........")
